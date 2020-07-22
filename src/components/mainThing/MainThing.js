@@ -1,7 +1,7 @@
 import React from 'react'; 
-import './src/components/body/Body.css';
+import './MainThing.css';
 
-function Body() {
+function MainThing() {
     return (
         <div>
             <h1>This is a body</h1>
@@ -9,6 +9,6 @@ function Body() {
     )
 }
 
-export default Body;
+export default MainThing;
 
 
