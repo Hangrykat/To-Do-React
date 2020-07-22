@@ -1,0 +1,36 @@
+#inputBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2a9d8f;
+}
+
+#inputField {
+    flex-grow: 1;
+    margin: 20px 0px 20px 20px;
+    height: 30px;
+}
+
+.addIcon > img {
+    height: 30px;
+    width: 30px;
+}
+
+.addIcon {
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#addButton {
+    background-color: #2a9d8f;
+    border: none;
+    width: 50px;
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

@@ -9,9 +9,11 @@ import Footer from '../components/footer/Footer';
 function App() {
   return (   
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <div className="body-container">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 }
