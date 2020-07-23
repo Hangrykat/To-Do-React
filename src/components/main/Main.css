@@ -1,0 +1,7 @@
+#taskLists {
+    box-shadow: 0px 2px 4px #00000054;
+    width: 350px;
+    overflow-y: auto;
+    height: 500px;
+    background-color: #f8f9fa;
+  }

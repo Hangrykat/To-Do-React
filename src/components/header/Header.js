@@ -3,8 +3,8 @@ import './Header.css';
 
 function Header() {
     return (
-        <div>
-            <h1>This is a header</h1>
+        <div className="header">
+            <p>Just-Do-It</p>
         </div>
     )
 }
