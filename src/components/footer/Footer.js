@@ -30,28 +30,23 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <form id="inputBox" onSubmit={this.handleSubmit}>
-        <input
-          name="text"
-          placeholder="Add a task...."
-          id="inputField"
-          autoComplete="off"
-          value={this.state.text}
-          onChange={this.handleChange}
-        />
-        <button
-          onClick={this.handleSubmit}
-          type="submit"
-          value="Add task"
-          id="addButton"
-        >
-          <div className="addIcon">
-            <img src={plusLogo} alt="button" />
-          </div>
-        </button>
-      </form>
-    );
-  }
+        <form id="inputBox">
+            <input
+            type="text"
+            placeholder="Add a task...."
+            id="inputField"
+            autocomplete="off"
+            />
+            <button
+            onclick="newTaskList.addTask()"
+            type="submit"
+            value="Add task"
+            id="addButton"
+            >
+            <div class="addIcon"><img src={plusLogo} alt={plusLogo} /></div>
+            </button>
+        </form>
+    )
 }
 
 export default Footer;
