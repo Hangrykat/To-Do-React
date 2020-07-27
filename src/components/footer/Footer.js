@@ -20,7 +20,7 @@ function Footer() {
             value="Add task"
             id="addButton"
             >
-            <div class="addIcon"><img src={plusLogo} alt="plus logo" /></div>
+            <div className="addIcon"><img src={plusLogo} alt="plus logo" /></div>
             </button>
         </form>
     )
