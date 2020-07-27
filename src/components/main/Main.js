@@ -3,8 +3,7 @@ import './Main.css';
 
 function Main() {
     return (
-        <div>
-            <h1>This is a body</h1>
+        <div id="taskLists">
         </div>
     )
 }
