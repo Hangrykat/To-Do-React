@@ -8,9 +8,9 @@ export default function TabTab() {
   return (
     <Tabs>
       <TabList className="lista">
-        <Tab>Important</Tab>
-        <Tab>Done</Tab>
-        <Tab>Tasks</Tab>
+        <Tab>TASK</Tab>
+        <Tab>IMPORTANT</Tab>
+        <Tab>DONE</Tab>
       </TabList>
 
       <TabPanel>

@@ -27,6 +27,7 @@ const Footer = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (inputText.text) {
     props.onSubmit({
       id: shortid.generate(),
       text: inputText.text,
@@ -34,6 +35,7 @@ const Footer = (props) => {
       contentEditable: false,
     });
     setText({ text: "" });
+  }
   };
 
   //   handleSubmit = (event) => {

@@ -10,6 +10,7 @@ const Task = (props) => {
         className="taskCheckbox"
       ></input>
       <p
+      ref={(input) => input && input.focus()}
         style={{
           textDecoration: props.todo.complete ? "line-through" : "",
         }}
